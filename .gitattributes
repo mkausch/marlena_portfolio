@@ -1,0 +1,4 @@
+bilder/zukunftstag.mp4 filter=lfs diff=lfs merge=lfs -text
+kunst/* filter=lfs diff=lfs merge=lfs -text
+documents/* filter=lfs diff=lfs merge=lfs -text
+bilder/* filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,210 @@
+.html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+body {
+  font-size: 120%;
+  font-family: Sora, sans-serif;
+  line-height: 1.4;
+  color: #102C57;
+  background-color: #EADBC8;
+  margin: 0;
+}
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+  padding: 0.8rem;
+} 
+
+nav {
+  background-color: #102C57;
+}
+
+footer a {
+  color: #DAC0A3;
+  text-decoration: none;
+}
+
+
+nav a {
+  color: #DAC0A3;
+  text-decoration: none;
+  display: block;
+  padding: 0.8rem;
+}
+
+nav ul {
+  margin: 0;
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+nav a.aktuell {
+  font-weight: bold;
+}
+
+main a {
+  color: #102C57;
+}
+
+main {
+  max-width: 62rem;
+  margin: auto;
+  display: flex;
+  padding: 2.6rem 0;
+}
+columne {
+  width: 50%;
+  margin: 0 2rem;
+}
+
+columne2 {
+  width: 100%;
+  margin: 0 2rem;
+}
+
+
+footer {
+  background-color: #102C57;
+  color: #DAC0A3;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+.center {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+
+.circle-mask {
+  border-radius: 50%;
+}
+
+.circle {
+    background-color: #102C57;;
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: 120px;
+    height: 120px;
+    animation: grow 2s forwards;
+}
+
+.content {
+    display: none;
+}
+
+.fade-in {
+    opacity: 0; /* Initial state */
+    animation: fadeIn 5s forwards;
+    animation-delay: 0s; /* Delay before starting the animation */
+}
+
+
+.pdf-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+object {
+    height: 297mm;
+    width: 210mm;
+    border: none;
+}
+
+span.email::after {
+  content: "marlena@kausch.li";
+}
+
+
+object[type="application/pdf"]::-webkit-media-controls {
+    display: none !important;
+}
+
+
+/* Initially hide the div */
+ @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+}
+
+       
+
+@keyframes grow {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+       transform: scale(40);
+    }
+    100% {
+        background-color: #EADBC8;
+        transform: scale(1);
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 530px) {
+  main {
+    padding: 1rem;
+    display: block;
+  }
+
+  img.circle-mask {
+    max-width: 70%; 
+    height: auto; 
+  } 
+
+  columne {
+    width: auto;
+    margin: 0 2rem;
+  }
+
+  .pdf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+
+  }
+
+  object {
+     height: 100%;
+     width: 100%;
+     border: none;
+  }
+
+}  

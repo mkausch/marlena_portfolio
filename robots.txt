@@ -1,0 +1,6 @@
+
+# robots.txt file to avolid my website to be indexed
+
+# Block all web crawlers from all content
+User-agent: *
+Disallow: /
