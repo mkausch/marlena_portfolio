@@ -1,2 +1,2 @@
 # marlena-portfolio
-Marlena Webseite Bewerbung
+Marlena's Webseite Bewerbungsite. Mein Name ist Marlena Kausch und ich schliesse im 2025 die Sekundarschule A im Schulhaus Rosenau in Winterthur ab. Danach möchte ich eine Ausbildung als Mediamatikerin anfangen und ins Berufsleben einsteigen. Diese Webseite enthält meinen Lebenslauf, einen Abschnitt über meine Interessen und einen Teil in dem ich kleinere Design-Projekte vorstelle.
